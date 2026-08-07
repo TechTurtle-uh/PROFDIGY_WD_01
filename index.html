@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pro Stopwatch | Internship Project</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+<div class="top">
+
+<h1>
+<i class="fa-solid fa-stopwatch"></i>
+Stopwatch
+</h1>
+
+<button id="themeBtn">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+</div>
+
+<div class="timer-box">
+
+<h1 id="display">
+00 : 00 : 00 : 000
+</h1>
+
+</div>
+
+<div class="buttons">
+
+<button id="start">
+<i class="fa-solid fa-play"></i>
+Start
+</button>
+
+<button id="pause">
+<i class="fa-solid fa-pause"></i>
+Pause
+</button>
+
+<button id="reset">
+<i class="fa-solid fa-rotate-left"></i>
+Reset
+</button>
+
+<button id="lap">
+<i class="fa-solid fa-flag-checkered"></i>
+Lap
+</button>
+
+</div>
+
+<div class="stats">
+
+<div class="card">
+<h3>Total Laps</h3>
+<p id="lapCount">0</p>
+</div>
+
+<div class="card">
+<h3>Fastest</h3>
+<p id="fastLap">--</p>
+</div>
+
+<div class="card">
+<h3>Slowest</h3>
+<p id="slowLap">--</p>
+</div>
+
+</div>
+<div class="lap-section">
+
+    <div class="lap-header">
+
+        <h2>Lap History</h2>
+
+        <button id="clearLap">
+
+            <i class="fa-solid fa-trash"></i>
+
+            Clear
+
+        </button>
+
+    </div>
+
+    <ul id="laps">
+
+    </ul>
+
+</div>
+
+<footer>
+
+    <p>
+        🚀 Developed using HTML • CSS • JavaScript
+    </p>
+
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
